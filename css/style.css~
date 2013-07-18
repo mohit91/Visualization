@@ -1,0 +1,123 @@
+body {
+	background: #FFFFFF;
+}
+.align-center {
+	width: 95%;
+	margin: 0 auto;
+}
+pre#name {
+	position: relative;
+	float: left;
+	font-size: 24px;
+	color: #666 ;
+	transition: color 0.5s ;
+	-webkit-transition: color 0.5s ;
+	-moz-transition: color 0.5s ;
+	-o-transition: color 0.5s ;
+	-ms-transition: color 0.5s ;	
+	cursor: pointer;
+}
+pre#name:hover {
+	color: #C00 ;
+}
+.header {
+	width: 90%;
+	margin: 0 auto ;
+	border-bottom: #CCC thin solid;
+	height: 60px;
+}
+.nav {
+	position: relative;
+	float: right;
+	text-align: center;
+	height: 30px;
+	padding-top: 30px;
+	font-family: verdana;
+	color: #999;
+	width: 100px;
+	font-size: 14px;
+	transition: color 0.5s, background 0.5s;
+	-webkit-transition: color 0.5s, background 0.5s ;
+	-moz-transition: color 0.5s, background 0.5s ;
+	-o-transition: color 0.5s, background 0.5s;
+	-ms-transition: color 0.5s, background 0.5s ;
+}
+.nav:hover {
+	color:#000;
+	background: #C00;
+	border-bottom: #666 thick solid; 
+}
+.main, .national {
+	width:900px;
+	height: 900px;
+	margin: 50px auto ;
+	background: #111;
+	
+}
+#home {
+	height: 900px;
+	width: 900px;
+	overflow: hidden ;
+}
+.national{
+	z-index: 10;
+}
+.main-elem-odd, .main-elem-even {
+	position: relative;
+	float: left;
+	height: 300px;
+	width: 300px;
+	text-align: center;
+	overflow: hidden;
+	opacity: 0;
+}
+.main-elem-odd {
+	background: #222;
+}
+.main-elem-even {
+	background: #666;
+}
+.elem-hover {
+	background: rgba(224,224,224,0.85);
+	color: #FFF;
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	left: 0;
+	top: 250px;
+}
+.footer {
+	background: rgba(16,16,16,1);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 30px;
+	width: 100%;
+	z-index: 5;		
+}
+.f-elem {
+	position: relative;
+	float: left;
+	font-size: 12px;
+	width: 250px;
+	text-align: center;
+	color: #999 ;
+	height: 100%;
+	border-right: #999 2px solid;
+	transform:skew(10deg,0deg);
+	-webkit-transform:skew(10deg,0deg);
+	-moz-transform:skew(10deg,0deg);
+	-o-transform:skew(10deg,0deg);
+	-ms-transform:skew(10deg,0deg);
+	transition: 0.5s ;
+	-webkit-transition: 0.5s ;
+	-moz-transition: 0.5s ;
+	-o-transition:  0.5s ;
+	-ms-transition:  0.5s ;	
+	cursor: pointer;
+}
+.f-elem:hover {
+	background: #900;
+	border-top: #000 thin solid;
+	height:100%;
+}
